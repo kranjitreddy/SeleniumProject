@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HighLevelRegression" duration-ms="46669" started-at="2018-03-08T01:52:29Z" finished-at="2018-03-08T01:53:15Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="46669" started-at="2018-03-08T01:52:29Z" finished-at="2018-03-08T01:53:15Z">
+      <class name="com.jenkins.testscripts.TC001_Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jenkins.testscripts.TC001_Login@c038203]" name="setUp" is-config="true" duration-ms="9720" started-at="2018-03-07T20:52:29Z" finished-at="2018-03-07T20:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.jenkins.testscripts.TC001_Login@c038203]" name="testLogin" duration-ms="5480" started-at="2018-03-07T20:52:38Z" finished-at="2018-03-07T20:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.jenkins.testscripts.TC001_Login@c038203]" name="quitBrowser" is-config="true" duration-ms="256" started-at="2018-03-07T20:52:44Z" finished-at="2018-03-07T20:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.jenkins.testscripts.TC001_Login -->
+      <class name="com.jenkins.testscripts.TC003_RetrieveEmailId">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jenkins.testscripts.TC003_RetrieveEmailId@55f3ddb1]" name="setUp" is-config="true" duration-ms="8366" started-at="2018-03-07T20:52:59Z" finished-at="2018-03-07T20:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="retrieveEmailId()[pri:0, instance:com.jenkins.testscripts.TC003_RetrieveEmailId@55f3ddb1]" name="retrieveEmailId" duration-ms="7748" started-at="2018-03-07T20:53:07Z" finished-at="2018-03-07T20:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveEmailId -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.jenkins.testscripts.TC003_RetrieveEmailId@55f3ddb1]" name="quitBrowser" is-config="true" duration-ms="321" started-at="2018-03-07T20:53:15Z" finished-at="2018-03-07T20:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.jenkins.testscripts.TC003_RetrieveEmailId -->
+      <class name="com.jenkins.testscripts.TC002_InvalidLogin">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.jenkins.testscripts.TC002_InvalidLogin@cc285f4]" name="setUP" is-config="true" duration-ms="7363" started-at="2018-03-07T20:52:44Z" finished-at="2018-03-07T20:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:com.jenkins.testscripts.TC002_InvalidLogin@cc285f4]" name="invalidLogin" duration-ms="7221" started-at="2018-03-07T20:52:51Z" finished-at="2018-03-07T20:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.jenkins.testscripts.TC002_InvalidLogin@cc285f4]" name="quitBrowser" is-config="true" duration-ms="164" started-at="2018-03-07T20:52:59Z" finished-at="2018-03-07T20:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.jenkins.testscripts.TC002_InvalidLogin -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- HighLevelRegression -->
+</testng-results>
