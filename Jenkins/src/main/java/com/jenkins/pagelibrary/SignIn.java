@@ -3,7 +3,6 @@ package com.jenkins.pagelibrary;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.log4testng.Logger;
 
 public class SignIn {
 	
