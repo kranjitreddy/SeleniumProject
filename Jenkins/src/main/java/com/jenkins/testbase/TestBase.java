@@ -52,7 +52,7 @@ public class TestBase {
 		}
 		else if(browser.equals("chrome")||browser.equals("CHROME"))
 		{
-			
+			System.out.println("Test");
 			System.setProperty("webdriver.chrome.driver","\\BlindGame\\Jenkins\\Drivers\\chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
