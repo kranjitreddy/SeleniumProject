@@ -25,12 +25,16 @@ public class TC001_Login extends TestBase
 	@Test
 	public void testLogin() throws InterruptedException
 	{
+		
+		System.out.println("Test Login Started ");
 		signin=new SignIn(driver);	
 		signin.clickOnSignIn();
 		signin.enterAlreadyRegisteredUserEmail("kranjitreddy@gmail.com");
 		signin.enterAllreadyRegisteredPassword("avanthi123");
 		signin.clickOnAllSignIntoAccount();
 		Thread.sleep(3000);
+		
+		System.out.println("Test Login Completed ");
 		
 	}
 	

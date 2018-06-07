@@ -21,6 +21,8 @@ public class TC003_RetrieveEmailId extends TestBase {
 	@Test
 	public void retrieveEmailId() throws InterruptedException
 	{
+		
+		System.out.println("Retrieve Email  Login Started ");
 		signin=new SignIn(driver);
 		signin.clickOnSignIn();
 		
@@ -38,6 +40,8 @@ public class TC003_RetrieveEmailId extends TestBase {
 		{
 		signin.confirmationMessageText();
 		}
+		
+		System.out.println("Retrieve Email Ended ");
 		
 	}
 	

@@ -4,3 +4,4 @@
 [0307/175459.867:ERROR:file_io_win.cc(179)] CreateFile C:\Users\ranjit\AppData\Local\Temp\scoped_dir1968_6427\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [0307/204307.503:ERROR:file_io_win.cc(179)] CreateFile C:\Users\ranjit\AppData\Local\Temp\scoped_dir13260_29284\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [0307/204409.740:ERROR:file_io_win.cc(179)] CreateFile C:\Users\ranjit\AppData\Local\Temp\scoped_dir14368_32168\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0313/214328.031:ERROR:file_io_win.cc(179)] CreateFile C:\Users\ranjit\AppData\Local\Temp\scoped_dir13532_24030\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)

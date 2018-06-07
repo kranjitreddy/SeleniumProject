@@ -25,6 +25,8 @@ public class TC002_InvalidLogin extends TestBase {
 	@Test
 	public void invalidLogin() throws InterruptedException
 	{
+		
+		System.out.println("Invali Login Started ");
 		signin=new SignIn(driver);
 		signin.clickOnSignIn();
 		
@@ -43,6 +45,8 @@ public class TC002_InvalidLogin extends TestBase {
 		{
 			System.out.println(" Valid Credentials ");
 		}
+		
+		System.out.println("Invalid Login Ended ");
 		
 	}
 	

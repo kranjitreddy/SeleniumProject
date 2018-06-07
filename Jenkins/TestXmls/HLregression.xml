@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="HighLevelRegression" verbose="1" >
-  <test name="Regression suite 1" >
+<suite name="HighLevelRegression"  parallel="classes"  thread-count="1" verbose="1">
+  <test name="Regression suite" >
     <classes>
       <class name="com.jenkins.testscripts.TC001_Login"/>
-       <class name="com.jenkins.testscripts.TC002_InvalidLogin"/>
-        <class name="com.jenkins.testscripts.TC003_RetrieveEmailId"/>
-     
-    </classes>
+      <class name="com.jenkins.testscripts.TC002_InvalidLogin"/>
+       <class name="com.jenkins.testscripts.TC003_RetrieveEmailId"/>
+     </classes>
  </test>
 </suite>

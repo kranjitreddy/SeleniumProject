@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="1" name="Failed suite [HighLevelRegression]" parallel="classes">
+  <test name="Regression suite(failed)" parallel="classes">
     <classes>
-      <class name="com.jenkins.testscripts.TC002_InvlalidLogin">
+      <class name="com.jenkins.testscripts.TC001_Login">
         <methods>
           <include name="quitBrowser"/>
-          <include name="setUP"/>
-          <include name="invalidLogin"/>
+          <include name="testLogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.jenkins.testscripts.TC002_InvlalidLogin -->
+      </class> <!-- com.jenkins.testscripts.TC001_Login -->
+      <class name="com.jenkins.testscripts.TC002_InvalidLogin">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="quitBrowser"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.jenkins.testscripts.TC002_InvalidLogin -->
+      <class name="com.jenkins.testscripts.TC003_RetrieveEmailId">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="retrieveEmailId"/>
+        </methods>
+      </class> <!-- com.jenkins.testscripts.TC003_RetrieveEmailId -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Regression suite(failed) -->
+</suite> <!-- Failed suite [HighLevelRegression] -->
